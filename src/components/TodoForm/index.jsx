@@ -8,7 +8,7 @@ function TodoForm(props) {
     if (!value) {
       return;
     }
-    props.addTodo(value);
+    props.addTodoHandler(value);
     setValue("");
   }
 

@@ -41,7 +41,7 @@ function App() {
       {todos.map((todo, index) => (
         <TodoItem todo={todo} key={index} index={index} completeTodo={completeTodo} removeTodo={removeTodo} />
       ))}
-      <TodoForm addTodo={addTodo}/>
+      <TodoForm addTodoHandler={addTodo}/>
     </div>
   );
 }
